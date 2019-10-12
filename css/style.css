@@ -9,7 +9,6 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     background: #2f3640;
-
     border-radius: 30px;
     padding: 10px;
     
@@ -17,6 +16,7 @@ body {
 }
 
 .search-btn{
+    text-decoration: none;
     color: rgb(54, 144, 250);
     font-size: 20px;
     float: right;
@@ -26,8 +26,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 5s;
-     text-decoration: none;
+    transition: .6s;
+     
    
     
     
@@ -42,7 +42,7 @@ body {
     padding: 0;
     color: #cbc7c7;
     font-size: 16px;
-    transition: 5s;
+    transition: .6s;
     line-height: 40px;
     width: 0px;
     
